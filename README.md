@@ -1,2 +1,4 @@
-# Major-Project
-An android app to communicate with a Bluetooth device to find the location of another wearable device
+# Android-HC05-App
+Source code for "HC-05 Bluetooth Terminal" Android app
+
+Feel free to use this code in your own app
