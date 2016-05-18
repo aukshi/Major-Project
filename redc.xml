@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:weightSum="1"
+    android:orientation="vertical">
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="395dp" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="391dp"
+            android:layout_height="292dp"
+            android:src="@drawable/red"
+            android:padding="25dp"
+            android:paddingLeft="50dp"
+            />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="194dp"
+            android:layout_height="124dp"
+            android:layout_gravity="center"
+            android:text="Patient is out of   range"
+            android:textSize="25sp"/>
+    </FrameLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please check your message for patiets location and use it in google maps"
+        android:id="@+id/bMap"
+        android:layout_gravity="center_horizontal" />
+
+
+</LinearLayout>
